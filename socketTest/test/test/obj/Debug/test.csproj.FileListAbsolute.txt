@@ -1,0 +1,15 @@
+C:\Users\Q\Desktop\socketTest\test\test\bin\Debug\test.exe.config
+C:\Users\Q\Desktop\socketTest\test\test\bin\Debug\test.exe
+C:\Users\Q\Desktop\socketTest\test\test\bin\Debug\test.pdb
+C:\Users\Q\Desktop\socketTest\test\test\obj\Debug\test.csprojResolveAssemblyReference.cache
+C:\Users\Q\Desktop\socketTest\test\test\obj\Debug\test.exe
+C:\Users\Q\Desktop\socketTest\test\test\obj\Debug\test.pdb
+F:\U3DProjects\socketTest\test\test\bin\Debug\test.exe.config
+F:\U3DProjects\socketTest\test\test\obj\Debug\test.exe
+F:\U3DProjects\socketTest\test\test\obj\Debug\test.pdb
+D:\UnityProject\DemoProject\socketTest\test\test\bin\Debug\test.exe.config
+D:\UnityProject\DemoProject\socketTest\test\test\obj\Debug\test.exe
+D:\UnityProject\DemoProject\socketTest\test\test\obj\Debug\test.pdb
+D:\UnityProject\DemoProject\socketTest\test\test\bin\Debug\test.exe
+D:\UnityProject\DemoProject\socketTest\test\test\bin\Debug\test.pdb
+D:\UnityProject\DemoProject\socketTest\test\test\obj\Debug\test.csprojResolveAssemblyReference.cache
