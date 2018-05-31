@@ -1,0 +1,32 @@
+﻿#pragma kernel Update
+//刚开始奇怪没有API 难道所有的基础运算函数都要自己实现?!
+//后来发现可以引入 cg 库
+//直接 #include 即可
+//#include "UnityCG.cginc"
+ 
+//接收的结构体buffer 必须跟 c# 脚本 和 shader 脚本里的一致，不然内存对不齐会出bug
+struct Particle
+{
+        float2 position;
+        float2 velocity;
+};
+ 
+float dt;
+int shouldMove;
+float2 mousePosition;
+ 
+RWStructuredBuffer<Particle> Particles;
+ 
+//可执行的函数
+//numthreads 是一次调用的批处理次数 括号里是 id
+//id 用 id.x id.y id.z 来访问
+[numthreads(1024,1,1)]
+void Update(uint3 id : SV_DispatchThreadID)
+{
+        if (shouldMove > 0) {
+                float2 v = float2(mousePosition.x - Particles[id.x].position.x, mousePosition.y - Particles[id.x].position.y);
+                float d2 = v.x * v.x + v.y * v.y;
+                Particles[id.x].velocity = Particles[id.x].velocity + 5 * (v / d2) * dt;
+        }
+        Particles[id.x].position = Particles[id.x].position + Particles[id.x].velocity * dt;
+}

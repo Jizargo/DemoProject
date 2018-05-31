@@ -78,7 +78,8 @@
 
             fixed4 frag(vertOUT ou):COLOR{
 
-                fixed4 c = tex2D(_MainTex,ou.uv);
+                //fixed4 c = tex2D(_MainTex,ou.uv);
+				fixed4 c = tex2D(_MainTex,ou.uv+float2(_Time.x*-2,0));//UV偏移
 				c+= half4( ou.velocity,0);
                 return c;
 
