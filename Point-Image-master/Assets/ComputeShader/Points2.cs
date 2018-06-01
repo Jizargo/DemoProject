@@ -54,7 +54,7 @@ public class Points2 : MonoBehaviour {
         for (int i = 0; i < size; i++)
         {
             initBuffer[i] = new Particle();
-            initBuffer[i].position = Random.insideUnitSphere * 10f;
+            initBuffer[i].position = Random.insideUnitCircle * 10f;
             initBuffer[i].velocity = Vector2.zero;
         }
         //写入 数据到 computeBuffer
