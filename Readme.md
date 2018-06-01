@@ -1,6 +1,6 @@
-GameAIAdvanced-master  ÈºÄñ
-Painter-master ¸øÄ£ĞÍÅçÆá
-Point-Image-master Êó±ê»¬¶¯Ë®ÎÆ£¨ComputeShader£©
-RunProject-master ìÅ¿áÅÜ¿á
-Volume-Projection Ìå»ı¹â
-Unity-Dragon-Shader-master Ë®¾§Áú
+GameAIAdvanced-master  ç¾¤é¸Ÿ
+Painter-master ç»™æ¨¡å‹å–·æ¼†
+Point-Image-master é¼ æ ‡æ»‘åŠ¨æ°´çº¹ï¼ˆComputeShaderï¼‰
+RunProject-master ç‚«é…·è·‘é…·
+Volume-Projection ä½“ç§¯å…‰
+Unity-Dragon-Shader-master æ°´æ™¶é¾™
